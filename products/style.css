@@ -1,0 +1,59 @@
+.page1{
+    min-height: 100vh;
+    padding-top: 15%;
+    color: rgb(10, 117, 34);
+    background-image: url(rerice.jpeg);
+    background-size:cover;
+}
+.text1{
+    font-size: 70px;
+    font-weight: bolder;
+    padding-left: 20%;
+    padding-top: 40px       ;
+}
+.text{
+    background-color: rgba(0, 0,0,0.4);
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%); 
+     width: 40%;
+    padding: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    margin-bottom: 30px;
+    padding-left: 10%;
+}
+.card{
+    width: 300px;
+    margin-top: 70px;
+border: 2px rgb(4, 87, 41) solid;
+
+}
+.card-text{
+    text-align:center;
+}
+
+.slide{
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+.card-body .btn{
+    margin-left: 40%;
+    
+}
+
+.card-group{
+    margin-top: 30px;
+}
+.form-control{
+max-width: 300px;
+margin: 3px;
+}

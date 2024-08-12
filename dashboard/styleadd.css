@@ -1,0 +1,169 @@
+* {
+    font-family: "Outfit", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* this line doesn't work */
+    background-image: url(rerice/images/loginpg.jpg) no-repeat;
+    background-size: cover;
+    background-color: #02a152;
+    background-position: center;
+  }
+  
+  /* Container styles */
+  .login-container {
+    width: 380px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    color: white;
+    border-radius: 14px;
+    padding: 30px 40px;
+  }
+  
+  /* Heading styles */
+  .login-container h1 {
+    font-size: 39px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+  
+  /* Social icons styles */
+  .social-icons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons .icon {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    margin: 0 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 16px;
+    padding: 7px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons .icon:hover {
+    color: #c2c2c2;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form container styles */
+  .form-container {
+    padding: 40px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Form message container styles */
+  .form-message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form input and button styles */
+  input,
+  form button {
+  
+    height: 40px;
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 60px;
+    font-size: 15px;
+    color: white;
+    text-indent: 15px;
+  }
+  
+  input::placeholder {
+    color: white;
+    text-indent: 15px;
+  }
+  
+  input:focus,
+  form button:focus {
+    border-color: transparent;
+  }
+  
+  form button {
+    background-color: #ecf4f0;
+    color: rgb(18, 17, 17);
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease ease-in-out;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  form button:hover {
+    background-color: #1c491e;
+  }
+  
+  /* Anchor tag styles */
+  a {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+  
+  p a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hidden class */
+  .hidden {
+    display: none;
+  }
+
+  /* Hide the default file input */
+  input[type="file"] {
+    display: none;
+}
+
+/* Style the custom button */
+.custom-file-upload {
+    height: 40px;
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 60px;
+    font-size: 15px;
+    color: white;
+    text-indent: 15px;
+}
+
+.custom-file-upload:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the file name text */
+#file-name {
+    margin-left: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+}

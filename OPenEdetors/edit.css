@@ -1,0 +1,63 @@
+/* Apply general styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the headings */
+h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the container for the form */
+h2 {
+    background-color: #3CBC8D;
+    color: white;
+    padding: 10px;
+}
+
+/* Style the strengths and weaknesses sections */
+h3 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-left: 5px solid #3CBC8D;
+}
+
+/* Style the input fields */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+/* Add focus styles for input fields */
+input[type="text"]:focus, textarea:focus {
+    border-color: #3CBC8D;
+    box-shadow: 0 0 5px rgba(60, 188, 141, 0.5);
+}
+
+/* Style the submit button */
+button {
+    background-color: #3CBC8D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+button:hover {
+    background-color: #2b9f6d;
+}
+
+/* Add spacing between form elements */
+form > * {
+    margin-bottom: 15px;
+}
